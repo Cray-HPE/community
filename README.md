@@ -14,6 +14,8 @@ For more specific topics, try a SIG.
 
 # GOVERNANCE
 ---
+Note that this repository is loosely modeled on the kubernetes open governance repository at https://github.com/kubernetes/community.  The goal is to apply the similar governance within the Cray / HPE community.  Phase 1 will seed the governance and Phase 2 will expand participation.
+
 There will be two phases for the rollout of governance for the Cray / HPE community:
 
 ### Phase 1 

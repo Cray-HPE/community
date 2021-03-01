@@ -19,7 +19,7 @@ _As contributors and maintainers of this project, and in the interest of fosteri
 As a member of the Cray/HPE community, you represent the project and your fellow contributors.
 We value our community and are committed to cultivating a friendly and collaborative
 environment for our contributors and users. We want everyone in the community to have
-[positive experiences].
+positive experiences.
 
 ****
 

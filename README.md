@@ -16,7 +16,7 @@ For more specific topics, try a SIG.
 ---
 Note that this repository is loosely modeled on the kubernetes open governance repository at https://github.com/kubernetes/community.  The goal is to apply the similar governance within the Cray / HPE community.  Phase 1 will seed the governance and Phase 2 will expand participation.
 
-There will be two phases for the rollout of governance for the Cray / HPE community:
+There will be two phases for the rollout of over-all governance for the Cray / HPE community:
 
 ### Phase 1 
 Our initial model will be very lean and simple. Community participants may submit PR's against any one of the published repositories. Once the PR is submitted, the Cray internal engineering management for that component/repo will review the PR and determine its suitability. Accepted PR's will be merged to master and become part of a subsequent release within the context of release cadence as it exists as of November 2020. Decisions regarding community contributions to a given repository will be at the sole discretion of the Cray engineering organization during this phase.
@@ -30,6 +30,6 @@ In general we will look to develop steering committees for a given project, SIG'
 
 ---
 
-Details for both Phase 1 and 2 can be found in the governance.md file in this repository.
+Details for both Phase 1 can be found [here](https://github.com/Cray-HPE/community/blob/main/governance.md). Phase 2 governance documentation will follow as we develop the community.
 
 There is no formal timeline for the transition from Phae 1 to Phase 2 governance model, as we envision it being an ongoing evolutionary process. 

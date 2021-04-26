@@ -1,6 +1,6 @@
 # Architecture Special Interest Group
 
-The Architecture SIG maintains and evolves the design principles of Kubernetes, and provides a consistent body of expertise necessary to ensure architectural consistency over time.
+The Architecture SIG maintains and evolves the design principles of CSM, and provides a consistent body of expertise necessary to ensure architectural consistency over time.
 
 The [charter](charter.md) defines the scope and governance of the Architecture Special Interest Group.
 

@@ -30,12 +30,14 @@ While ultimate go / no-go decisions regarding a given PR or design change, etc w
 ## Special Interest  Groups
 For Phase one we will form the following Special Interest Groups (SIG's) to provide natural rallying points around subject domain areas:
 
+- [CSM Architecture](sig-CSM-Architecture/README.md)
 - CSM Hardware Management
 - CSM Compute Image Management
 - CSM User Access and Experience
 - CSM Security
 - CSM Workload Management
-- CSM Multi-Tenanccy
+- [CSM Multi-Tenancy](sig-CSM-Multi-Tenancy/README.md)
+- [CSM Release Management](sig-CSM-Release-Management/README.md)
 
 Each SIG is comprised of members from both Cray-HPE, private domain companies, and public domain customers and entities. All with a common purpose of advancing the project with respect to a specific topic, such as Workload management, Networking or Documentation. Our goal is to enable a distributed decision structure and code ownership, as well as providing focused forums for getting work done, making decisions, and onboarding new contributors. Every identifiable subpart of the project (e.g., github org, repository, subdirectory, API, test, issue, PR) is intended to be owned by some SIG.
 

@@ -53,7 +53,7 @@ Please see the [API Reviews]() tracking board to follow the work of this sub-pro
 Enhancement proposals (KEPs) are used to propose and communicate changes to sub-projects of SIG-Architecture. Following the EP process is mandatory for all enhancements.
 
 * Answers to our FAQs can be found here [FAQs](https://github.com/cray-hpe/enhancements/tree/master/eps#faqs) 
-* Full details of the EP process can be found in [KEP-1](https://github.com/cray-hpe/enhancements/blob/master/eps/0001-enhancement-proposal-process.md)
+* Full details of the EP process can be found in [EP-1](https://github.com/cray-hpe/enhancements/blob/master/eps/0001-enhancement-proposal-process.md)
 * Please follow the EP template available at [EP Template](https://github.com/cray-hpe/enhancements/blob/master/eps/NNNN-ep-template/README.md) for the enhancement proposal.
 * Progress of EPs can be tracked on our github project board at [Enhancements](https://github.com/cray-hpe/enhancements/projects/4)
 

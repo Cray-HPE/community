@@ -24,7 +24,7 @@ The Chairs of the SIG run operations and processes governing the SIG.
 ## Contact
 - Slack: [#sig-architecture](https://cray-shasta.slack.com/messages/sig-csm-architecture)
 - [Mailing list](https://)
-- [Open Community Issues/PRs](https://github.com/cray-hpe/community/labels/sig%2Farchitecture)
+- [Open Community Issues/PRs](/labels/sig%2Farchitecture)
 
 - Steering Committee Liaison: Alex Lovell-Troy (**[@alexlovelltroy](https://github.com/alexlovelltroy)**)
 
@@ -40,10 +40,10 @@ Establishing and documenting design principles, documenting and evolving the sys
 
 Establishing and documenting conventions for system and user-facing APIs, define and operate the APl review process, final API implementation consistency validation, co-own top-level API directories with API machinery; maintaining, evolving, and enforcing the deprecation policy
 
-* [CSM Design and Architecture](https://github.com/cray-hpe/community/blob/master/contributors/design-proposals/architecture/architecture.md)
-* [Design principles](https://github.com/cray-hpe/community/blob/master/contributors/design-proposals/architecture/principles.md)
+* [CSM Design and Architecture](/blob/master/contributors/design-proposals/architecture/architecture.md)
+* [Design principles](/blob/master/contributors/design-proposals/architecture/principles.md)
 * [API conventions](/contributors/devel/sig-architecture/api-conventions.md)
-* [API Review process](https://github.com/cray-hpe/community/blob/master/sig-architecture/api-review-process.md)
+* [API Review process](/blob/master/sig-architecture/api-review-process.md)
 * [Deprecation policy]()
 
 Please see the [API Reviews]() tracking board to follow the work of this sub-project. Please reach out to the chairs if you are interested in joining this effort.

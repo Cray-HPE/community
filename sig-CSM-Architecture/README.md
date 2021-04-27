@@ -19,7 +19,7 @@ The Chairs of the SIG run operations and processes governing the SIG.
 * Alex Lovell-Troy (**[@alexlovelltroy](https://github.com/alexlovelltroy)**), HPE
 * Alden Stradling (**[@stradling](https://github.com/stradling)**), Los Alamos National Lab
 * , Exascale Computing Group
-* , EuroHPC Joint Undertaking
+* , LUMI/CSCS/UK CoE/
 
 ## Contact
 - Slack: [#sig-architecture](https://cray-shasta.slack.com/messages/sig-csm-architecture)

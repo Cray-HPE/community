@@ -42,9 +42,9 @@ Establishing and documenting conventions for system and user-facing APIs, define
 
 * [CSM Design and Architecture](/contributors/design-proposals/architecture/architecture.md)
 * [Design principles](/contributors/design-proposals/architecture/principles.md)
-* [API conventions](/contributors/devel/sig-architecture/api-conventions.md)
-* [API Review process](/sig-architecture/api-review-process.md)
-* [Deprecation policy]()
+* [API conventions](/sig-CSM-architecture/api-conventions.md)
+* [API Review process](/sig-CSM-architecture/api-review-process.md)
+* [Deprecation policy](/sig-CSM-architecture/deprecation-process.md)
 
 Please see the [API Reviews]() tracking board to follow the work of this sub-project. Please reach out to the chairs if you are interested in joining this effort.
 

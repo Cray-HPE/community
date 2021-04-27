@@ -17,7 +17,7 @@ The [charter](charter.md) defines the scope and governance of the Architecture S
 The Chairs of the SIG run operations and processes governing the SIG.
 
 * Alex Lovell-Troy (**[@alexlovelltroy](https://github.com/alexlovelltroy)**), HPE
-* Alden Stradling (**[@stradling])(https://github.com/stradling)**), Los Alamos National Lab
+* Alden Stradling (**[@stradling](https://github.com/stradling)**), Los Alamos National Lab
 * , Exascale Computing Group
 * , EuroHPC Joint Undertaking
 

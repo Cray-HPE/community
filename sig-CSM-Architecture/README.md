@@ -53,12 +53,18 @@ Please see the [API Reviews](/projects/2) tracking board to follow the work of t
 
 Enhancement proposals (EPs) are used to propose and communicate changes to sub-projects of sig-CSM-Architecture. Following the EP process is mandatory for all enhancements.
 
-* Answers to our FAQs can be found here [FAQs](/enhancements/eps#faqs) 
-* Full details of the EP process can be found in [EP-1](/enhancements/eps/0001-enhancement-proposal-process.md)
-* Please follow the EP template available at [EP Template](/enhancements/eps/NNNN-ep-template/README.md) for the enhancement proposal.
-* Progress of EPs can be tracked on our github project board at [Enhancements](/projects/1)
+* Answers to our EP FAQs can be found here [FAQs](/enhancements/eps#faqs) 
+* Full details of the EP process can be found in [EP-1]()
+* Please follow the EP template available at [EP Template](/.github/ISSUE_TEMPLATE/enhancement-proposal.md) for the enhancement proposal.
+* Progress of EPs can be tracked on our github project board at [Enhancements](/projects/2)
 
-## Production Readiness
+## Production Readiness Reviews
 
 Defining and documenting the processes for ensuring production readiness of new and
 promoted features, as well as producing tooling to enforce those processes.
+
+* Answers to our PRR FAQs can be found here [FAQs](/enhancements/eps#faqs) 
+* Full details of the PRR process can be found in [PRR-1]()
+* Please follow the PRR template available at [PRR Template](/.github/ISSUE_TEMPLATE/enhancement-proposal.md) for the enhancement proposal.
+* Progress of PRRs can be tracked on our github project board at [Production Readiness Reviews](/projects/3)
+

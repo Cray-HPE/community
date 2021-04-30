@@ -56,15 +56,15 @@ Enhancement proposals (EPs) are used to propose and communicate changes to sub-p
 * Answers to our EP FAQs can be found here [FAQs](/enhancements/eps#faqs) 
 * Full details of the EP process can be found in [EP-1]()
 * Please follow the EP template available at [EP Template](/.github/ISSUE_TEMPLATE/enhancement-proposal.md) for the enhancement proposal.
-* Progress of EPs can be tracked on our github project board at [Enhancements](/projects/2)
+* Progress of EPs can be tracked on our github project board at [Enhancements](https://github.com/Cray-HPE/community/projects/2)
 
 ## Production Readiness Reviews
 
 Defining and documenting the processes for ensuring production readiness of new and
 promoted features, as well as producing tooling to enforce those processes.
 
-* Answers to our PRR FAQs can be found here [FAQs](/enhancements/eps#faqs) 
+* Answers to our PRR FAQs can be found here [FAQs](/enhancements/prrs#faqs) 
 * Full details of the PRR process can be found in [PRR-1]()
-* Please follow the PRR template available at [PRR Template](/.github/ISSUE_TEMPLATE/enhancement-proposal.md) for the enhancement proposal.
-* Progress of PRRs can be tracked on our github project board at [Production Readiness Reviews](/projects/3)
+* Please follow the PRR template available at [PRR Template](/.github/ISSUE_TEMPLATE/production-readiness-review.md) for the enhancement proposal.
+* Progress of PRRs can be tracked on our github project board at [Production Readiness Reviews](https://github.com/Cray-HPE/community/projects/3)
 

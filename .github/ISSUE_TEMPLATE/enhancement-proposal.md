@@ -2,7 +2,7 @@
 name: Enhancement Proposal
 about: Propose an architectural enhancement
 title: ''
-labels: ''
+labels: 'enhancement'
 assignees: ''
 
 ---
@@ -45,3 +45,19 @@ _What impact is there beyond the problem statement if we fix the problem now?_
 ## Further Information
 
 _Use this section for pertinent information and/or links to background information._
+
+## Housekeeping
+
+_All of this section is optional. If nothing is added here, remove the entire Housekeeping section._
+
+### Suggested Reviewers
+_@mention individuals who you would like to have review this proposal. All are welcome to reivew and comment, but SMEs or others who should be aware of this EP should be listed here._
+
+_- [ ] @reviewer1_
+_- [ ] @reviewer2_
+
+### Comment Period
+
+_Specify a date by which this proposal's comment period should close. In order to ensure that lack of review does not delay mission critical enhancements, the suggested comment period is at least 7 calendar days, not including major holidays/breaks. Use your best judgment. If this is not time critical specify a longer comment period or none at all._
+
+_Comment period for this proposal shall close on [[July 28, 202X]]._

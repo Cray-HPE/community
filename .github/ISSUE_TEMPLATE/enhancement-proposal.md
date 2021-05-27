@@ -15,7 +15,6 @@ _In most cases, each section should be less than a paragraph_
 
 _The purpose is to explain why a change is needed and get general agreement/familiarity with the approach.  This is not a process for design-by-committee._
 
-
 ## Abstract
 
 _Delete this text and replace with a concise summary of the problem and proposed solution._
@@ -23,6 +22,8 @@ _Delete this text and replace with a concise summary of the problem and proposed
 ## Problem Statement
 
 _From a customer point of view, explain how the system works today and what part of the customer experience needs improvement._
+
+_Briefly list external and internal use cases, and non-use cases (i.e. problems this EP is NOT trying to solve)._
 
 ## Internal References
 
@@ -51,7 +52,7 @@ _Use this section for pertinent information and/or links to background informati
 _All of this section is optional. If nothing is added here, remove the entire Housekeeping section._
 
 ### Suggested Reviewers
-_@mention individuals who you would like to have review this proposal. All are welcome to reivew and comment, but SMEs or others who should be aware of this EP should be listed here._
+_@mention individuals who you would like to have review this proposal. All are welcome to review and comment, but SMEs or others who should be aware of this EP should be listed here._
 
 _- [ ] @reviewer1_
 _- [ ] @reviewer2_

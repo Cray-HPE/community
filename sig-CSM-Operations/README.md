@@ -6,7 +6,7 @@ The [charter](charter.md) defines the scope and governance of the Operations Spe
 
 ## Meetings
 
-* Regular SIG Meeting: [T.B.D. at 9:00 PT (Pacific Time)]() (bi-monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=09:00&tz=PT%20%28Pacific%20Time%29).
+* Regular SIG AMA Meeting: [10:00AM CT (Central Time)]() (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=CT%20%28Central%20Time%29).
   * [Meeting notes and Agenda]().
   * [Meeting recordings]().
 
@@ -16,17 +16,16 @@ The [charter](charter.md) defines the scope and governance of the Operations Spe
 ### Chairs
 The Chairs of the SIG run operations and processes governing the SIG.
 
-* Dennis Walker (**[@adenniswalker](https://github.com/orgs/Cray-HPE/people/denniswalker)**), HPE
+* Sean Wallace (**[@SeanWallace](https://github.com/SeanWallace)**), HPE
+* Dennis Walker (**[@denniswalker](https://github.com/denniswalker)**), HPE
 * Eric Roman (**[@eric-roman](https://github.com/eric-roman)**), NERSC
 * , Exascale Computing Group
 * , LUMI/CSCS/UK CoE/
 
 ## Contact
 - Slack: [#sig-csm-operations](https://cray-shasta.slack.com/archives/C02372V7VPT)
-- [Mailing list](https://)
-- [Open Community Issues/PRs](/labels/sig%2Fcsm%2Farchitecture)
 
-- Steering Committee Liaison: Dennis Walker (**[@denniswalker](https://github.com/orgs/Cray-HPE/people/denniswalker)**)
+- Steering Committee Liaison: Dennis Walker (**[@denniswalker](https://github.com/denniswalker)**)
 
 ## Subprojects
 

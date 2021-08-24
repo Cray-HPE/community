@@ -32,7 +32,7 @@ For Phase one we will form the following Special Interest Groups (SIG's) to prov
 
 - [CSM Architecture](sig-CSM-Architecture/README.md)
 - CSM Hardware Management
-- CSM Compute Image Management
+- [CSM Image and Configuration Management](sig-CSM-Image-Configuration-Management/README.md)
 - CSM User Access and Experience
 - CSM Security
 - CSM Workload Management

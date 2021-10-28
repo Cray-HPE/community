@@ -1,6 +1,6 @@
 ---
 name: Enhancement Proposal
-about: Propose an architectural enhancement
+about: Propose an architectural enhancement to CSM
 title: ''
 labels: 'enhancement'
 assignees: ''
@@ -46,6 +46,8 @@ _What impact is there beyond the problem statement if we fix the problem now?_
 ## Further Information
 
 _Use this section for pertinent information and/or links to background information._
+
+_Will this EP need to go to the Solution Interoperability Team? See https://github.com/Cray-HPE/community/wiki/Enhancement-Proposals#solution-interoperability-team-sit-engagement_
 
 ## Housekeeping
 

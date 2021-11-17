@@ -35,9 +35,11 @@ are also available.)
 
 ### API Least Privileges
 
+Nothing to report
 
 ### Non-root Containers
 
+Pushing this work to CSM 1.3.
 
 ### Pen Testing
 

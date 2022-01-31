@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2022-01-28T19:51:30.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="X-8ZLDMfNgduvM7dyNQd" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-31T19:34:50.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dVEJatsoJLKO2p8Crh5P" version="16.4.3" type="github">
   <diagram id="jE0tbtdRtXhwwxw7maQi" name="Gitflow">
-    <mxGraphModel dx="1141" dy="923" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="1185" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-21" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" edge="1" parent="1" source="LsBYb9-5J5OpWKu_Bd03-15" target="LsBYb9-5J5OpWKu_Bd03-19">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-21" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" parent="1" source="LsBYb9-5J5OpWKu_Bd03-15" target="LsBYb9-5J5OpWKu_Bd03-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660.0000000000005" y="474.9999999999998" as="sourcePoint" />
             <mxPoint x="950.9999999999995" y="477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-10" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" edge="1" parent="1" source="DRClWILjRCVxKTy49Wwj-7" target="LsBYb9-5J5OpWKu_Bd03-3">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-10" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" parent="1" source="DRClWILjRCVxKTy49Wwj-7" target="LsBYb9-5J5OpWKu_Bd03-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1065" y="641" as="sourcePoint" />
             <mxPoint x="761" y="607" as="targetPoint" />
@@ -50,7 +49,7 @@
         <mxCell id="DRClWILjRCVxKTy49Wwj-6" value="GitHub PR" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;glass=0;fillColor=default;gradientColor=#ffffff;size=0.25;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="321" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="667S5ESOch-8aJcwRp_F-53" value="" style="endArrow=none;html=1;fontColor=#EA6B66;strokeWidth=2;fillColor=#eeeeee;strokeColor=#E6E6E6;shadow=0;opacity=50;sketch=1;rounded=1;startArrow=none;" parent="1" edge="1" source="667S5ESOch-8aJcwRp_F-36">
+        <mxCell id="667S5ESOch-8aJcwRp_F-53" value="" style="endArrow=none;html=1;fontColor=#EA6B66;strokeWidth=2;fillColor=#eeeeee;strokeColor=#E6E6E6;shadow=0;opacity=50;sketch=1;rounded=1;startArrow=none;" parent="1" source="667S5ESOch-8aJcwRp_F-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="395.5" y="720" as="sourcePoint" />
             <mxPoint x="395.5" y="120" as="targetPoint" />
@@ -270,7 +269,7 @@
         <mxCell id="667S5ESOch-8aJcwRp_F-34" value="git flow release start 1.1.0" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="543" width="147" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="DRClWILjRCVxKTy49Wwj-25" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" parent="1" source="667S5ESOch-8aJcwRp_F-50" edge="1" target="DRClWILjRCVxKTy49Wwj-21">
+        <mxCell id="DRClWILjRCVxKTy49Wwj-25" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" parent="1" source="667S5ESOch-8aJcwRp_F-50" target="DRClWILjRCVxKTy49Wwj-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="326" y="644" as="sourcePoint" />
             <mxPoint x="326" y="1016" as="targetPoint" />
@@ -282,22 +281,22 @@
         <mxCell id="DRClWILjRCVxKTy49Wwj-29" value="&lt;font color=&quot;#ea6b66&quot;&gt;Tag ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="757" y="962" width="155" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-1" value="Github Release v1.1.0" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-1" value="Github Release v1.1.0" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="941" y="922.5" width="177" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-3" value="Github Release v1.0.1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-3" value="Github Release v1.0.1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="941" y="427.5" width="177" height="79" as="geometry" />
         </mxCell>
         <mxCell id="DRClWILjRCVxKTy49Wwj-13" value="GitFlow Merge Back PR" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;glass=0;fillColor=default;gradientColor=#ffffff;size=0.25;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="423" width="137" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-7" value="GitFlow Merge Back PR" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;glass=0;fillColor=default;gradientColor=#ffffff;size=0.25;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-7" value="GitFlow Merge Back PR" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;glass=0;fillColor=default;gradientColor=#ffffff;size=0.25;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="415" y="992" width="137" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-8" value="&lt;font color=&quot;#ea6b66&quot;&gt;PR ACTION: gitflow-mergeback&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-8" value="&lt;font color=&quot;#ea6b66&quot;&gt;PR ACTION: gitflow-mergeback&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="394" y="482" width="179" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-9" value="&lt;font color=&quot;#ea6b66&quot;&gt;PR ACTION: gitflow-mergeback&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-9" value="&lt;font color=&quot;#ea6b66&quot;&gt;PR ACTION: gitflow-mergeback&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="394" y="1053" width="179" height="18" as="geometry" />
         </mxCell>
         <mxCell id="DRClWILjRCVxKTy49Wwj-19" value="&lt;font color=&quot;#ea6b66&quot;&gt;Tag ACTION: create-release&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
@@ -306,7 +305,7 @@
         <mxCell id="DRClWILjRCVxKTy49Wwj-18" value="&lt;font color=&quot;#000000&quot;&gt;git tag v1.0.1&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;shadow=0;glass=0;sketch=1;fontColor=#EA6B66;opacity=0;gradientColor=none;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="664" y="448" width="79" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-11" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" edge="1" parent="1" source="667S5ESOch-8aJcwRp_F-50" target="LsBYb9-5J5OpWKu_Bd03-1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-11" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;strokeWidth=2;sketch=1;" parent="1" source="667S5ESOch-8aJcwRp_F-50" target="LsBYb9-5J5OpWKu_Bd03-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="707" y="859" as="sourcePoint" />
             <mxPoint x="998" y="861" as="targetPoint" />
@@ -315,40 +314,40 @@
         <mxCell id="667S5ESOch-8aJcwRp_F-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;gradientColor=#006600;gradientDirection=radial;shadow=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="386" y="687" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-14" value="" style="endArrow=none;html=1;fontColor=#EA6B66;strokeWidth=2;fillColor=#eeeeee;strokeColor=#E6E6E6;shadow=0;opacity=50;sketch=1;rounded=1;" edge="1" parent="1" target="667S5ESOch-8aJcwRp_F-36">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-14" value="" style="endArrow=none;html=1;fontColor=#EA6B66;strokeWidth=2;fillColor=#eeeeee;strokeColor=#E6E6E6;shadow=0;opacity=50;sketch=1;rounded=1;" parent="1" target="667S5ESOch-8aJcwRp_F-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="395.5" y="720" as="sourcePoint" />
             <mxPoint x="395.5" y="119.99999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;gradientColor=#006600;gradientDirection=radial;shadow=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;gradientColor=#006600;gradientDirection=radial;shadow=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="386" y="735" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-16" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#EA6B66;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=2;sketch=1;rounded=1;" edge="1" parent="1" target="LsBYb9-5J5OpWKu_Bd03-15">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-16" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#EA6B66;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=2;sketch=1;rounded=1;" parent="1" target="LsBYb9-5J5OpWKu_Bd03-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="396" y="708" as="sourcePoint" />
             <mxPoint x="406" y="697" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-17" value="&lt;font color=&quot;#000000&quot;&gt;version 1.1.0-beta.1&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;shadow=0;glass=0;sketch=1;fontColor=#EA6B66;opacity=0;gradientColor=none;fillStyle=solid;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-17" value="&lt;font color=&quot;#000000&quot;&gt;version 1.1.0-beta.1&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;shadow=0;glass=0;sketch=1;fontColor=#EA6B66;opacity=0;gradientColor=none;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="417" y="680" width="116" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-18" value="&lt;font color=&quot;#ea6b66&quot;&gt;Tag ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-18" value="&lt;font color=&quot;#ea6b66&quot;&gt;Tag ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="606" y="746" width="155" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-19" value="Github Prerelease v1.1.0-beta.1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-19" value="Github Prerelease v1.1.0-beta.1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="833" y="705.5" width="229" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-20" value="&lt;font color=&quot;#ea6b66&quot;&gt;Tag ACTION: create-release&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-20" value="&lt;font color=&quot;#ea6b66&quot;&gt;Tag ACTION: create-release&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="606" y="728" width="161" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-22" value="&lt;font color=&quot;#ea6b66&quot;&gt;Push ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-22" value="&lt;font color=&quot;#ea6b66&quot;&gt;Push ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="211" y="687" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-23" value="&lt;font color=&quot;#ea6b66&quot;&gt;Push ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-23" value="&lt;font color=&quot;#ea6b66&quot;&gt;Push ACTION: build-artifacts&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;glass=0;gradientColor=#ffffff;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="211" y="736.5" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LsBYb9-5J5OpWKu_Bd03-24" value="&lt;font color=&quot;#000000&quot;&gt;git tag v1.1.0-beta.2&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;shadow=0;glass=0;sketch=1;fontColor=#EA6B66;opacity=0;gradientColor=none;fillStyle=solid;" vertex="1" parent="1">
+        <mxCell id="LsBYb9-5J5OpWKu_Bd03-24" value="&lt;font color=&quot;#000000&quot;&gt;git tag v1.1.0-beta.2&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=default;strokeColor=none;rounded=1;shadow=0;glass=0;sketch=1;fontColor=#EA6B66;opacity=0;gradientColor=none;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="425.5" y="726.5" width="116" height="18" as="geometry" />
         </mxCell>
       </root>

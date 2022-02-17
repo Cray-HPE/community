@@ -28,7 +28,7 @@
 
 * Access directly to NCNs (shell/login) should be strictly limited as an operational practice
 * The credentials (canonically in /etc/kubernetes/admin.conf) are being used by various provisioning and/or automated processes
-* Prospectively, one solution path to resolve includes brining in OIDC authentication for K8S, and then further refining non-person/machine SP credentials, and anchoring OIDC issuance in Spire (w/ TPM RoT)
+* Prospectively, one solution path to resolve includes bringing in OIDC authentication for K8S, and then further refining non-person/machine SP credentials, and anchoring OIDC issuance in Spire (w/ TPM RoT)
 
 ### CSM 3rd Party Red-Team Assessment
 

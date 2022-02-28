@@ -15,7 +15,7 @@
     * Weekly reviews by engineering and product management
     * Triage of all images with critical and high vulnerabilities, ticketing and assignment out to development teams
 * Focus on container image vulnerability remediation until beta release of 1.2 (~ 1st week of March), then turn to stabilization
-    * May lead to high vulnerability counts
+    * May lead to higher vulnerability counts
 
 ### Update on container runtime security ("non-root") status
 

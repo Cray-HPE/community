@@ -20,7 +20,7 @@ The [charter](charter.md) defines the scope and governance of this SIG.
 ### Chairs
 The Co-chairs of the SIG run operations and processes governing the SIG.
 
-* Randy Kleinman (**[@rkleinman-hpe](https://github.com/rkleinman-hpe)**), HPE
+* TBD, HPE
 * Doug Jacobsen (**[@dmjacobsen](https://github.com/dmjacobsen)**), NERSC
 
 ## Contact

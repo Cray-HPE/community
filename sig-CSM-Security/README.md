@@ -20,8 +20,6 @@ Special Interest Group (TBD).
 The Chairs of the SIG run operations and processes governing the SIG.
 
 * Jeremy Duckworth (**[@jeremy-duckworth](https://github.com/jeremy-duckworth)**), HPE
-* Miguel Gila (**[@miguelgila](https://github.com/miguelgila)**), CSCS
-* Marc Santor, LANL
 * Kevin Burns (**[@kburns-hpe](https://github.com/kburns-hpe)**), HPE
 
 ## Contact

@@ -49,4 +49,4 @@ The SIG briefly discussed the concept of CSM providing 'fast track' security mit
 
 ### CSM Helm Test Inclusion Improvements
 
-Andrew Nieuwsma (HPE CSM) verbally briefed the team on [Helm Test[(https://helm.sh/docs/helm/helm_test/)] enhancements that are being added to some Kubernetes workloads within CSM. Tests can be invoked during runtime, to verify basic control-plane functionality. The SIG expressed interest in the feature set, and asked Andrew to follow-up and share the design if possible -- this on the balance that others within the SIG might be able to adopt a similar approach. 
+Andrew Nieuwsma (HPE CSM) verbally briefed the team on [Helm Test](https://helm.sh/docs/helm/helm_test/) enhancements that are being added to some Kubernetes workloads within CSM. Tests can be invoked during runtime, to verify basic control-plane functionality. The SIG expressed interest in the feature set, and asked Andrew to follow-up and share the design if possible -- this on the balance that others within the SIG might be able to adopt a similar approach. 

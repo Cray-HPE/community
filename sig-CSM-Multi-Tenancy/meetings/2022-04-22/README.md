@@ -25,7 +25,7 @@
             * Groups change when ~ git changes
             * Concern about using static xname maps on much larger systems (mgmt overhead)
                 * Currently using smaller system
-                * Might be nice to proivde hardware selectors to abstract explicit xname mapping
+                * Might be nice to support hardware selectors to abstract explicit xname mapping
                     * e.g., 10 GPU nodes, 30 multi-core nodes
                 * Eventually need to discuss placement constraints and trade-offs (not MVP)
                     * HSN and chassis placement
@@ -38,17 +38,18 @@
         * Local modifications to the Slurm generator to query HSM group membership
             * David Gloe (HPE) indicated that the WLM Team at HPE is making the same/similar change
 
-* Possible Future Topics
-
-* Details around mapping process between LDAP and CSM KeyCloak (shasta realm)
+* Future Topics
+    * Details around mapping process between LDAP and CSM KeyCloak (shasta realm)
         * MVP mapping would be done manually (import users from LDAP, map to shasta realm roles)
             * Role mapping to express that a user is
                 * A tenant administrator
-                * Gas administrative access to a set of tenants (one user can manage zero or more tenants)
-        * (Mark Klein) Need CSCS IAM SME to participate
-* How tenant user directory federation needs to take shape
-    * Would ostensibly use 'external' directory services, not expected to integrate with CSM KeyCloak
-    * Need CSCS IAM SME on this
+                * Has administrative access to a set of tenants (one user can manage zero or more tenants)
+            * (Mark Klein) Need CSCS IAM SME to participate
+    * How a tenant administrator is provided access to the CSM Kubernetes Cluster
+        * One option to explore, Kubernetes OIDC Integration with CSM KeyCloak
+    * How tenant user directory federation needs to take shape
+        * Would ostensibly use 'external' directory services, not expected to integrate with CSM KeyCloak
+        * (Mark Klein) Need CSCS IAM SME on this
 
 ## Round-table
 

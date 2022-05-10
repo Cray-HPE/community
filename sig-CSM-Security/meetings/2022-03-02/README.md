@@ -36,6 +36,6 @@ Context: possibly making upgrades easier (decoupling storage cluster operation).
 
 Thought yes, but no product direction at this juncture. The expert that could speak to this isn't typically present in this SIG forum, but the HPE Team can help facilitate a discussion.
 
-### Any thougth to producing more frequent updates and maybe separating updates by system target (control plane, user access, compute)?
+### Any thought to producing more frequent updates and maybe separating updates by system target (control plane, user access, compute)?
 
 Context: Need more frequent updates to keep pace with security vulnerabilities. If updates are going to be more frequent and only impact management plane, customers could "live" with disruption to management plane if it didn't impact compute plane. Customers want to break maintenance operations down if possible. They need to (clearly) understand operational impact.  

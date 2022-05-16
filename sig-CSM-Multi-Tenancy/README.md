@@ -1,4 +1,4 @@
-# Security Special Interest Group
+# Multi-tenancy Special Interest Group
 
 The Multi-tenancy SIG maintains and evolves the multi-tenancy model of CSM, 
 and provides a consistent body of expertise necessary to ensure architectural 

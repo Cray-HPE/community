@@ -1,0 +1,172 @@
+:showtitle:
+:toc: left
+:numbered:
+:icons: font
+:state: published
+:discussion: 
+:labels: process
+:revremark: State: {state} | {discussion}
+
+= RFD 1 Requests for Discussion
+Alex Lovell-Troy <alovelltroy@lanl.gov>
+With heavy inspiration from Jess Frazelle <jess@oxide.computer> and Bryan Cantrill <bryan@oxide.computer> through link:https://oxide.computer/blog/rfd-1-requests-for-discussion[Oxide.Computer RFD 1]
+
+Writing down ideas is important:  it allows them to be rigorously formulated (even while nascent), candidly discussed and transparently shared.
+We capture the written expression of an idea in a *Request for Discussion* (RFD), a document in the original spirit of the https://en.wikipedia.org/wiki/Request_for_Comments[IETF Request for Comments], as expressed by https://tools.ietf.org/html/rfc3[RFC 3]:
+
+____
+The content of a note may be any thought, suggestion, etc.
+related to the software or other aspect of the network.
+Notes are encouraged to be timely rather than polished.
+Philosophical positions without examples or other specifics, specific suggestions or implementation techniques without introductory or background explication, and explicit questions without any attempted answers are all acceptable.
+The minimum length for a note is one sentence.
+____
+
+____
+These standards (or lack of them) are stated explicitly for two reasons.
+First, there is a tendency to view a written statement as ipso facto authoritative, and we hope to promote the exchange and discussion of considerably less than authoritative ideas.
+Second, there is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.
+____
+
+Similar to RFCs, our philosophy of RFDs is to allow both timely discussion of rough ideas, while still becoming a permanent repository for more established ones.
+Depending on their state, RFDs may be quickly iterated on in a branch, discussed actively as part of a pull request to be merged, or commented upon after having been published.
+The workflow for the RFD process for is based upon those of the Golang proposal process, Joyent RFD process, Rust RFC process, and Kubernetes proposal process.
+
+== When to use an RFD
+
+The following are examples of when an RFD is appropriate, these are intended to be broad:
+
+* An architectural or design decision for hardware or software
+* Change to a project API or tool
+* Change to a process related to the development or publishing of code
+* A design for testing
+
+=== Insights to include in RFDs
+
+When writing RFDs for technical and core product determination (<<rfd5>> defines
+determination),
+as well as other ideas, it is important
+to consider various different aspects of the determination:
+
+* Document the viable options (or a subset of options if we can easily rule
+some out) and the benefits and drawbacks of each option.
+* Document our reasoning including data and references wherever possible; making
+it easy for our future selves (and those who join in the future) to understand
+the decisions we’ve made and why.
+* Document the determination, see <<rfd5>> for a definition of determination.
+
+A great example of going through the viable options in a space is
+<<rfd9>> which lays out
+how networking is done by each cloud provider today from unbiased, clear
+viewpoint. <<rfd21>> and
+<<rfd63>> then build on top of <<rfd9>> to include the
+reasoning and ultimate determination for how we will approach networking in our
+product.
+
+While not applicable in every case, we should include business and customer
+considerations including wherever possible. Those can take the form of:
+
+* Economic:
+** What is the relative cost of this idea (and/or alternative ideas) in terms of
+time and money?
+** What are the implications that this will have on the partners over time, both
+short-term and long-term?
+* Partner outcomes and impact:
+** What does this idea look like in terms of how it impacts a customer?
+** What are the outcomes for partners if we implement this idea versus
+alternatives?
+* Performance:
+** How do the trade-offs of this determination impact performace? Is it visible for partners? Is it a regression? Are there any benchmarks that helped lead to
+the determination?
+* Security
+** How to the trade-offs of this determination impact the security of the
+product?
+
+An example of this type of thinking can be found in
+https://www.tesla.com/2020shareholdermeeting[Tesla's Battery Day presentation].
+This was a _very_
+technical presentation outlining all the enhancements to Tesla's batteries that
+are on their roadmap.
+
+The Tesla team took into account the materials for the cathode and anode, the
+cell design, factory, and integration with the vehicle. Overall, they increased
+the vehicle's range by 54% while decreasing the cost per kWh by 56% and
+their CapEx investment per GWh by 69%.
+
+The outcome for their customers is a cheaper car with a longer battery life and
+range. This has great impact for the company in that now more people are able to
+buy electric cars since they are cheaper.
+
+This is just an example of how to incorporate economic and customer impact into
+technical ideas.
+
+Not every RFD is equal. Some have more sense of urgency and therefore might not
+be as rigorous as others. Some are a documentation of our knowledge thus far on
+a given topic. All things being said, use your best judgement when it comes to
+the level of depth to devote to an RFD. Time is also of the essence, so weigh
+rigor and urgency to your best judgement.
+
+== RFD Metadata and State
+
+At the start of every RFD document, we'd like to include a brief amount of metadata.
+We do this with https://docs.asciidoctor.org/asciidoc/latest/attributes/custom-attributes/#create-a-custom-attribute-and-value[AsciiDoc attributes]. It looks like:
+
+----
+:authors: Andy Hertzfeld <ah@cs.brown.edu>; Neal Firth <nealf@dg.com>
+:state: prediscussion
+:discussion: <link to PR discussion>
+:labels: semicolon; separated; labels
+----
+
+We keep track of three pieces of metadata:
+
+. `authors`: The authors (and therefore owners) of an RFD.
+They should be listed with their name and e-mail address.
+. `state`: Must be one of the states discussed below.
+. `discussion`: For RFDs that are in or beyond the `discussion` state, this should be a link to the PR to integrate the RFD;
+see below for details.
+. `labels`: A comma separated list of text labels that specify high-level categories that the RFD falls into, designed to make searching easier. For example, `control-plane`, `hypervisor`, `process`, `corp`, etc.
+
+An RFD can be in one of the following six states:
+
+. `prediscussion`
+. `ideation`
+. `discussion`
+. `published`
+. `committed`
+. `abandoned`
+
+
+A document in the `prediscussion` state indicates that the work is not yet ready for discussion, but that the RFD is effectively a placeholder.
+The `prediscussion` state signifies that work iterations are being done quickly on the RFD in its branch in order to advance the RFD to the `discussion` state.
+
+A document in the `ideation` state contains only a description of the topic
+that the RFD will cover, providing an indication of the scope of the eventual
+RFD.  Unlike the `prediscussion` state, there is no expectation that it is
+undergoing active revision. Such a document can be viewed as a scratchpad for
+related ideas.  Any member of the team is encouraged to start active
+development of such an RFD (moving it to the `prediscussion` state) with or
+without the participation of the original author. It is critical that RFDs in
+the `ideation` state are clear and narrowly defined.
+
+Documents under active discussion should be in the `discussion` state.
+At this point a discussion is being had for the RFD in a Pull Request.
+
+Once (or if) discussion has converged and the Pull Request is ready to be merged, it should be updated to the `published` state before merge.
+Note that just because something is in the `published` state does not mean that it cannot be updated and corrected.
+See the  <<making-changes-to-an-RFD,Making changes to an RFD>> section for more information.
+
+The `prediscussion` state should be viewed as essentially a collaborative extension of an engineer's notebook, and the `discussion` state should be used when an idea is being actively discussed.
+These states shouldn't be used for ideas that have been committed to, organizationally or otherwise;
+by the time an idea represents the consensus or direction, it should be in the `published` state.
+
+Once an idea has been entirely implemented, it should be in the `committed` state.
+Comments on ideas in the `committed` state should generally be raised as issues -- but if the comment represents a call for a significant divergence from or extension to committed functionality, a new RFD may be called for;
+as in all things, use your best judgment.
+
+Finally, if an idea is found to be non-viable (that is, deliberately never implemented) or if an RFD should be otherwise indicated that it should be ignored, it can be moved into the `abandoned` state.
+
+[bibliography]
+== References
+
+- [[[rfd5]]] Oxide Computer Co.  https://5.rfd.oxide.computer/[RFD 5: Phases of Engineering].  2020.

@@ -43,4 +43,3 @@ and opts-in to updates and modifications to [governance].
 Federation of Subprojects as defined in [governance]
 
 [governance]: https://github.com/cray-hpe/community/blob/master/governance.md
-[subproject]: https://github.com/cray-hpe/community/blob/master/sig-CSM-Release-Management/README.md

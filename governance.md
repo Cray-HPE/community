@@ -1,64 +1,29 @@
-*This is a Work in Progress*
+# Governance Structure
+The project is governed by a board of directors (the board) which delegates oversight of technical issues to a technical steering committee (the TSC).  The board has discretion to form additional committees to more effectively manage the project.  The TSC is responsible for organizing special interest groups (SIGs) as needed to address narrow issues of technical focus.
 
-# Principles
+## Board Of Directors
+This charter is enacted by the founding members of the project through the creation of a Board of Directors (the board) that is responsible for leadership and management.  Membership on the board is granted permanently to the founding institutions and one representative from the Technical Steering Committee (the TSC). A founding institution is required to submit in writing to the board its intention to leave the project or the board. Each founding institution and the TSC is granted one vote on the board. Each founding institution appoints a representative and one alternate member. The TC will be required to send one member to attend all board activities. The board shall define in these rules the mechanism by which members of the board will be accepted and removed.
 
-The Cray/HPE community adheres to the following principles:
-* Open: Cray/HPE is open source. See repository guidelines below.
-* Welcoming and respectful: See Code of Conduct, below.
-* Transparent and accessible: Work and collaboration should be done in public. See SIG governance, below.
-* Merit: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, [scope], and [design principles].
+## Technical Steering Committee
+The board entrusts technical oversight of the project to the Technical Steering Committee (the TSC).  Membership in the TSC is granted permanently to the founding institutions named below. A founding institution is required to submit in writing to the board and the TC its intention to leave the TC. Each founding institution shall appoint one member and one alternate member to the TC. Membership on the Technical Committee by someone other than a founding member appointment shall be by majority vote of the project development community. A membership vote for the TC shall happen on a yearly basis beginning one year after the adoption of these rules.
 
-****
+### Special Interest Groups and Technical Working Groups
 
-# Code of Conduct
+It is the responsibility of the TSC to organize SIGs and temporary working groups to address technical issues based on the needs of the community.  Any project participant may suggest a SIG for long term focus or a working group for a short term project through a pull request to this repository that creates a directory for the SIG and a readme based on the [prototype](/prototypes/sig-README-template.md).
 
-The Cray/HPE community abides by the [Cray/HPE code of conduct]. Here is an excerpt:
+### Technical Standards
 
-_As contributors and maintainers of this project, and in the interest of fostering an open and welcoming community, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities._
+The TSC is responsible for the quality of technical changes to the project.  In order to facilitate robust and transparent discussion surrounding the standards, the TSC has created a structured area for discussion in this repository under [rfds](/rfds/) that is loosely based on earlier work from the [IETF](https://datatracker.ietf.org/doc/html/rfc3) and the team at [Oxide.Computer](https://oxide.computer/blog/rfd-1-requests-for-discussion)
 
-As a member of the Cray/HPE community, you represent the project and your fellow contributors.
-We value our community and are committed to cultivating a friendly and collaborative
-environment for our contributors and users. We want everyone in the community to have
-positive experiences.
+## Values
 
-****
+[See Values Document](/values.md)
 
-## OSS Phase 1 Governance
+## Code of Conduct
 
-While ultimate go / no-go decisions regarding a given PR or design change, etc will remain with Cray-HPE, we expect to begin the development and processes necessary to move us to a mainstream OSS project governance model.
+The bikeshack project follows version 2.0 of the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html) with any changes noted locally in our own [Code of Conduct](/code-of-conduct.md)
 
-## Special Interest  Groups
-For Phase one we will form the following Special Interest Groups (SIG's) to provide natural rallying points around subject domain areas:
 
-- [CSM Architecture](sig-CSM-Architecture/README.md)
-- CSM Hardware Management
-- [CSM Image and Configuration Management](sig-CSM-Image-Configuration-Management/README.md)
-- CSM User Access and Experience
-- CSM Security
-- CSM Workload Management
-- [CSM Multi-Tenancy](sig-CSM-Multi-Tenancy/README.md)
-- [CSM Release Management](sig-CSM-Release-Management/README.md)
 
-Each SIG is comprised of members from both Cray-HPE, private domain companies, and public domain customers and entities. All with a common purpose of advancing the project with respect to a specific topic, such as Workload management, Networking or Documentation. Our goal is to enable a distributed decision structure and code ownership, as well as providing focused forums for getting work done, making decisions, and onboarding new contributors. Every identifiable subpart of the project (e.g., github org, repository, subdirectory, API, test, issue, PR) is intended to be owned by some SIG.
-
-Areas covered by SIGs may be vertically focused on particular components or functions, cross-cutting/horizontal, spanning many/all functional areas of the project, or in support of the project itself. Examples:
-
-- Vertical: Network, Storage, Compute, Workload Scheduling
-- Horizontal: Security, Scalability, Architecture
-- Project: Testing, Release, Docs, PM, Contributor Experience
-
-SIGs must have at least one and ideally two SIG chairs at any given time. SIG chairs are intended to be organizers and facilitators, responsible for the operation of the SIG and for communication and coordination with the other SIGs, the Steering Committee, and the broader community.
-
-## Cross-Project Communication and Coordination - Working Groups
-
-During Phase 1 We need community rallying points to facilitate discussions/work regarding topics that are short-lived or that span multiple functioanl domains.
-
-Working groups are primarily used to facilitate topics of discussion that are in scope for CSM but that cross SIG lines. If a set of folks in the community want to get together and discuss a topic, they can do so without forming a Working Group.
-
-Working Groups will be formed as needed or situations dictate. See working group governance for more details about forming and disbanding Working Groups. 
-
-Working groups are documented in sigs.yaml.
-
-## Repository guidelines
-All new repository requests will be handled on a case by case basis during Phase 1 of the OSS transition. When we move to Phase 2, repository additions will follow a defined community process.
+ 
 

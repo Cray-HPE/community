@@ -1,0 +1,8 @@
+# Details of the CODEOWNERS syntax can be found at
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# The chairs of the TSC are responsible for management of the repo
+* @bikeshack/tsc
+
+# The board is responsible for everything in the board subdirectory
+/board/*  @bikeshack/board

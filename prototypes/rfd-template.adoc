@@ -1,0 +1,20 @@
+:showtitle:
+:toc: left
+:numbered:
+:icons: font
+:state: prediscussion
+:discussion:
+:revremark: State: {state} | {discussion}
+:authors: Seymour Cray <seymour@example.com>; Neal Firth <neal@example.com>
+
+= RFD <Number> <Title>
+{authors}
+
+== Determinations
+
+== Open Questions
+
+== Security Considerations
+
+[bibliography]
+== External References

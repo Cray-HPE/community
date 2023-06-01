@@ -1,0 +1,263 @@
+:showtitle:
+:toc: left
+:numbered:
+:icons: font
+:state: published
+:discussion: https://github.com/oxidecomputer/rfd/pull/4
+:revremark: State: {state} | {discussion}
+
+= RFD 2 Phases of Engineering
+Bryan Cantrill <bryan@oxide.computer> Copied with minor edits from oxidecomputer.
+
+Engineering in a new technical domain is exhilarating, but can also be
+daunting: how should one structure building a product in light of significant
+unknowns?  The road to shipping something novel can be a long one -- so long,
+in fact, that it can be challenging to know when and where to get started.
+While each development will chart a unique path, there are commonalities
+shared across them that can serve as a useful guide for taxonomizing
+the process of engineering.
+
+Specifically, we divide engineering work into *phases*.  
+
+- *Scoping*: Determining what problem is to be solved
+- *Exploration*: Investigate potential ways to solve the problem
+- *Prototyping*: Develop enough of a concrete artifact to evaluate ideas
+- *Determination*: Making a decision as to technical direction
+- *Development*: Actively build!
+- *Validation*: Confirm that the built artifact is functional
+- *Stress*: Operate the built artifact at sufficient load to break it
+- *Production*: Ship and deploy the built artifact
+
+While the implication is clearly temporal, they shouldn't be inferred to be
+overly rigid with respect to time:  one phase often bleeds into the next
+without clear demarcation, and there are cases when one doesn't necessarily
+flow from one phase neatly into the next at all (or even moves backwards).
+Moreover, there are cases when a project will be in multiple phases
+concurrently, and there are domains in which specific phases have no
+applicability and should be foregone entirely.  In short, apply your common
+sense and good judgement when applying them to a particular project or
+endeavor.
+
+== Scoping
+
+An early (and critical!) first activity is to _scope_ the problem:  what
+is to be solved?  Often as important, what problem is _not_ to be solved?
+What are customer constraints?  What are the economic constraints?  What
+are the physical constraints?  What are the performance expectations? 
+What is the threat model?  One need not have answers to all of these questions
+(and indeed, some of these questions may well not apply to a specific
+problem), but one should have *some* questions to be answered as part of
+scoping.  The scope of the problem will help guide exploration.
+
+== Exploration
+
+Once tasked with a scoped problem, engineers should survey the solution
+space.  Depending on the nature of the problem, this exploration may involve
+some form of literature review (including both formal and informal writing);
+a survey of open source projects; a review of hardware technologies and
+products; and conversations with domain experts.
+
+In cases where exploration is difficult to structure (as it may be when the
+solution space is particularly open-ended or when one is entirely new to the
+domain), one can think of exploration as asking (and answering!) a series of
+questions.
+
+=== What questions can guide inquiry?
+
+A first question to ask is a bit of a meta-question:  what questions can
+guide the inquiry into a domain?  Writing these down can be helpful for
+guiding exploration.  Often seemingly elementary questions have deep answers
+-- or may themselves represent open questions.  And of course, some (or
+perhaps even many) of these questions may simply reflect naiveté in the
+domain -- but answering these questions over the course of exploration will
+represent budding mastery.
+
+=== What has been formally written about the domain?
+
+For nearly any domain, there is almost assuredly *some* formal,
+peer-reviewed technical writing that at least makes reference to it.
+Literature should be surveyed, with copies of notable papers (or perhaps
+even infamous ones) tracked, ideally with some commentary.
+
+In terms of starting a literature survey, one can start with publicly
+searchable archives like
+https://scholar.google.com[Google scholar],
+https://arxiv.org/archive/cs[arXiv.org], and
+https://dblp.uni-trier.de/[dblp].  It can also be quite helpful to look
+for conferences specific to the domain, e.g.
+https://supercomputing.org/conference-history/[Supercomputing],
+https://cug.org/digital-library/[CUG],
+https://www.usenix.org/publications/proceedings[USENIX Proceedings], and
+http://www.sosp.org/[SOSP].
+
+Perhaps there's a survey paper or article?  If so, follow these references
+to search the literature.  If you hit paywalls at ACM or IEEE, try searching
+for the title of the paper; ACM and IEEE both allow authors to make their
+work available without restriction, and many take this liberty.
+
+
+=== What technologies should be experimented with?
+
+Ultimately, engineering artifacts are concrete.  For most domains, there will
+exist some technologies that can be experimented with to facilitate
+exploration.  This experimentation is essential, as it often yields much
+better questions.  For pure software systems, the path to experimentation is
+clear, but for systems that represent both hardware and software, it can be
+quite a bit more challenging; creativity may be required to find a way to
+simulate an otherwise unapproachable domain.
+
+=== What documentation can be consumed?
+
+For some new technologies, documentation will be spartan (or worse, out dated
+or contradictory) -- but for many, there will be at least serious, earnest
+attempts to document.  Especially for hardware components, documentation is
+often available; these should be consumed!
+
+=== What informal writing exists?
+
+Informal writing -- blog entries and so on -- can be a valuable resource.
+For esoteric domains, these might be hard to find, but can be incredibly
+valuable when unearthed!
+
+== What presentations can be viewed or listened to?
+
+We blessedly live in an era where talks are not only recorded, but disseminated
+freely.  This gives an entirely different medium by which to consume and
+synthesize information -- and can be consumed on commutes, doing household
+chores, etc.
+
+=== Who are the experts in the domain?
+
+By looking at the literature and technologies available, surveying informal
+writing and so on, some of the same names will likely appear.  Experience has
+taught us that *it is worth reaching out to these experts directly, often
+earlier rather than later*.  For many (if not most!) their work is esoteric
+and doesn't necessarily enjoy a wide audience; they often appreciate the
+opportunity to discuss it with someone else who is interested!  They can also
+provide a useful lay of the land, other experts to speak with and so on.
+
+=== Who are the potential partners?
+
+What companies, entities or associations are active in the domain?  Are
+there companies that we should be partnering with?  How can we get to 
+conversations with these partners?
+
+=== How are unit economics affected?
+
+Does the domain have the ability to affect our unit economics?  While it
+will certainly be true that many will not affect unit economics one way or 
+ther other -- those that can can be profoundly important.  Certainly, if
+a technology is going to adversely impact unit economics, this should be
+determined quickly and factored into any decision about its application.
+But if creative use of a technology has the capacity to positively impact
+unit economics, this may make a domain especially attractive!
+
+=== What is the competitive landscape?
+
+What are our competitors doing?  This question is last because it is often
+least interesting -- but it is an important question to consider nonetheless,
+if only to be able to differentiate our own endeavors.
+
+== Prototyping
+
+Exploration will yield candidate technologies, but to really assess
+suitability, _prototyping_ will often be required.  In the earliest days,
+prototyping will amount to understanding the basics of a technology -- but
+even this can be revealing:  many a promising technology has quickly
+disappointed with poor implementation of quotidian details like
+documentation and tooling!
+
+Beyond the earliest experimentation, prototyping should be *focused*: what
+question or questions is the prototype trying to answer?  Without guiding
+questions, it is easy for prototyping to become desultory.  If there are
+multiple technologies to evaluate, the same questions should ideally be
+asked of each prototype.  And the objective of a (or each) prototype should
+not be to become fully functional (after all, many a fully functional
+prototype has been errantly shipped into production!), but rather to inform
+the determination of a technology.
+
+== Determination
+
+At some point, technology direction must be _determined_:  a decision must
+be made, and a direction committed to.  The right moment to make a
+determination is often more art than science:  done too early, a decision
+may be hasty -- and may need to be revisited, reversed or (worst of all)
+lived with in perpetuity.  Done too late, however, and precious time can be
+wasted analyzing obvious dead ends or needlessly verifying what is clearly
+the right path.
+
+When grappling with equivocation over an important determination, it can be
+helpful to ask:  what is the desired end state?  Does this decision move in
+the wrong direction with respect to that end state?  That is, is urgency
+requiring a decision that will need to be later reversed?  Or does this
+determination advance towards the desired end state, albeit incompletely?
+What are the consequences of the determination elsewhere in the stack?
+Where the interface is contained (that is, where the determination is
+essentially an implementation detail), determination can have the solace of
+some measure of reversibility.  But that said, it is a mistake to assume
+that all decisions are reversible:  technology decisions deep in the stack
+are often only reversible at prohibitive expense; their determination should
+be made as rigorously as urgency permits.
+
+Once made, *a determination should be recorded in a published RFD.*  Even
+if this determination feels somewhat tentative, it is important to record
+that a direction has been determined -- and will remain the direction until
+proven to be non-viable.
+
+== Development
+
+Once the problem is scoped, the alternatives explored, prototypes
+experimented with and a direction established, development begins in
+earnest.  In the course of development, smaller problems will arise that
+will repeat the cycle of scoping, exploration, prototyping and determination
+-- but with large decisions made (and scope established), these smaller
+eddies should be of a size that befits the scale of the problem.  There may
+be some cases -- hopefully rare -- where over the course of development it
+is becoming increasingly clear that either determination was in error, or
+exploration missed an important alternative, or (perhaps most likely) the
+work of development has unearthed issues that raise questions as to the
+direction's viability.  In these cases, it is critical that engineers not
+engage in a so-called
+https://en.wikipedia.org/wiki/Death_march_(project_management)[death march]
+whereby everyone knows that the direction is wrong, but no one feels
+empowered to do anything about it.  If the wrong determination was made, it
+is better to know that sooner than later; sometimes the most focused teams
+are the ones that have been empowered to backtrack and take a better path!
+
+== Validation
+
+At some point during development -- perhaps early in development, perhaps
+later, depending on the technology -- validation will need to begin.
+In general and where possible, validation should be biased to be earlier
+rather than later: the problems unearthed in validation can result in 
+significant development changes; if validation begins too late in the
+development process, overall schedule may be adversely affected.
+
+== Stress
+
+At some point -- likely as part of validation and often in parallel with the
+later stages of development (but occasionally much earlier) -- stress testing
+should begin.  A product or system or subsystem or component should be taken to
+its breaking point:  it should be made to fail, or otherwise abused to the
+point that it cannot function.  These failures should be understood, which can
+be challenging: because they are often (if not always) synthetic in their
+construction and load, it can be tempting to dismiss anomolies seen during
+stress testing as non-representative -- but these are often the last
+opportunities to understand emergent behavior in a controlled environment.
+
+== Production
+
+When an artifact is deployed into production, the engineering process does
+not stop but rather enters an important critical phase: systems in
+production must be _listened_ to and understood.  In particular, it should
+be fully expected that there will be some class of failures that are
+seen _only_ in production -- and the ultimate success of a product may 
+depend on its ability to be improved based on these early failures.
+As such, this phase can be anticipated in earlier phases by building a
+product to be understood when it is deployed:  to provide the necessary
+data to allow it to be improved.
+
+[bibliography]
+== External References
+
+- [[[rfd5]]] Oxide Computer Co.  https://5.rfd.oxide.computer/[RFD 5: Phases of Engineering].  2020.
